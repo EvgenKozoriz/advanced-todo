@@ -1,5 +1,5 @@
-import React from "react";
 import "./index.scss";
+
 const UpcomingCard = ({ title = "Today" }) => {
   return (
     <div className="card">
@@ -11,7 +11,6 @@ const UpcomingCard = ({ title = "Today" }) => {
         <li>Task 3</li>
         <li>Task 4</li>
         <li>Task 1</li>
-
       </ul>
     </div>
   );
