@@ -1,6 +1,6 @@
 import "./index.scss";
 import List from "./List";
-
+import iconPath from "../../../assets/plus-icon.png";
 const Lists = () => {
   return (
     <div className="lists">
@@ -11,11 +11,7 @@ const Lists = () => {
       </div>
       <div className="lists__add-btn">
         <div className="lists__el-block">
-          <img
-            src="src\assets\plus-icon.png"
-            className="lists__add-btn-plus"
-            alt="plus-icon"
-          />
+          <img src={iconPath} className="lists__add-btn-plus" alt="plus-icon" />
           <h2 className="lists__add-btn-name">Add new List</h2>
         </div>
       </div>
