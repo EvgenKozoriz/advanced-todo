@@ -1,5 +1,3 @@
-import React from "react";
-
 const Tag = () => {
   return (
     <div className="tags__element" style={{ backgroundColor: "#d074b2" }}>

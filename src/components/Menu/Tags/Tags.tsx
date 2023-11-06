@@ -1,4 +1,3 @@
-import React from "react";
 import "./Index.scss";
 import Tag from "./Tag";
 

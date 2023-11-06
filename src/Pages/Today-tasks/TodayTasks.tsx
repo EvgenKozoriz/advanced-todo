@@ -1,10 +1,7 @@
-import React from 'react'
-import './index.scss'
+import "./index.scss";
 
 const TodayTasks = () => {
-  return (
-    <div>TodayTasks</div>
-  )
-}
+  return <div>TodayTasks</div>;
+};
 
-export default TodayTasks
+export default TodayTasks;

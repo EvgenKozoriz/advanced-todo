@@ -1,10 +1,7 @@
-import React from 'react'
-import './index.scss'
+import "./index.scss";
 
 const StickyWall = () => {
-  return (
-    <div>StickyWall</div>
-  )
-}
+  return <div>StickyWall</div>;
+};
 
-export default StickyWall
+export default StickyWall;

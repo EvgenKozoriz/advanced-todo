@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.scss";
 import List from "./List";
 
@@ -7,8 +6,8 @@ const Lists = () => {
     <div className="lists">
       <h2 className="lists__title">LISTS</h2>
       <div className="lists__wrapper">
-        <List/>
-        <List/>
+        <List />
+        <List />
       </div>
       <div className="lists__add-btn">
         <div className="lists__el-block">
