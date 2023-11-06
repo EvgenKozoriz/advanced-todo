@@ -15,12 +15,11 @@ function App() {
           <Menu />
           <div className="main">
             <Routes>
-              <Route path="/">
-                <Route path="upcoming" element={<UpcomingTasks />} />
-                <Route path="today" element={<TodayTasks />} />
-                <Route path="calendar" element={<Calendar />} />
-                <Route path="sticky-wall" element={<StickyWall />} />
-              </Route>
+              <Route path="/"/>
+              <Route path="upcoming" element={<UpcomingTasks />} />
+              <Route path="today" element={<TodayTasks />} />
+              <Route path="calendar" element={<Calendar />} />
+              <Route path="sticky-wall" element={<StickyWall />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
           </div>
