@@ -1,0 +1,67 @@
+.tasks {
+    margin: 0 10px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+
+        & > a {
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        font-size: 14px;
+        color: #7c7c7c;
+        margin: 0 0 5px;
+    }
+
+    &__button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        padding: 5px 0;
+    }
+
+    &__button:hover {
+        background-color: #d1d1d1;
+    }
+
+    &__btn-block {
+        display: flex;
+        margin: 5px 15px;
+    }
+
+    &__button img {
+        width: 15px;
+        height: 15px;
+    }
+
+    &__btn-title {
+        font-size: 14px;
+        color: #7c7c7c;
+        margin: 0;
+        padding-left: 15px;
+    }
+
+    &__count {
+        width: 20px;
+        height: 20px;
+        padding: 3px 6px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 10px;
+        color: #7c7c7c;
+        background-color: white;
+        cursor: pointer;
+        transition: .2s;
+    }
+
+    &__count:hover {
+        transform: scale(.8);
+    }
+}
+

@@ -1,0 +1,41 @@
+.upcoming {
+    padding: 15px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 15px;
+
+        & h2 {
+            margin: 0;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+    }
+
+    &__count {
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: white;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    &__card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+
+        @media (max-width: 1000px) {
+            & {
+              grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
