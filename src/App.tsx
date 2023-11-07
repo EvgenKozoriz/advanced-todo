@@ -9,23 +9,21 @@ import ErrorPage from "./Pages/Error-page/ErrorPage";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <div className="wrapper">
-          <Menu />
-          <div className="main">
-            <Routes>
-              <Route path="/"/>
-              <Route path="upcoming" element={<UpcomingTasks />} />
-              <Route path="today" element={<TodayTasks />} />
-              <Route path="calendar" element={<Calendar />} />
-              <Route path="sticky-wall" element={<StickyWall />} />
-              <Route path="*" element={<ErrorPage />} />
-            </Routes>
-          </div>
+    <BrowserRouter>
+      <div className="wrapper">
+        <Menu />
+        <div className="main">
+          <Routes>
+            <Route path="/" element={<TodayTasks />} />
+            <Route path="upcoming" element={<UpcomingTasks />} />
+            <Route path="today" element={<TodayTasks />} />
+            <Route path="calendar" element={<Calendar />} />
+            <Route path="sticky-wall" element={<StickyWall />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
         </div>
-      </BrowserRouter>
-    </>
+      </div>
+    </BrowserRouter>
   );
 }
 

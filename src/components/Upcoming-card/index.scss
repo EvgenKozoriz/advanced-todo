@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    height: 380px;
+    overflow: hidden;
+
+
+    &__title {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    &__tasks-list {
+        margin: 10px ;
+        height: 260px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+    ::-webkit-scrollbar-thumb {
+        background: #b4b4b4;
+        border-radius: 5px;
+      }
+
+
+
+}
