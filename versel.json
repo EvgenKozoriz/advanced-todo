@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "soure": "/(.*)",
-            "destination": "/index.html"
+            "destination": "/"
         }
     ]
 }
