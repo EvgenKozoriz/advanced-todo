@@ -9,8 +9,8 @@ const Menu = () => {
   const [isOpen, setIsOpen] = useState<boolean>(true);
 
   const toggleIsOpen = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
@@ -18,7 +18,9 @@ const Menu = () => {
         <div className="menu">
           <div className="menu__header-block">
             <h1 className="menu__title">Menu</h1>
-            <button className="menu__hide-button" onClick={toggleIsOpen} >&#8801;</button>
+            <button className="menu__hide-button" onClick={toggleIsOpen}>
+              &#8801;
+            </button>
           </div>
           <Search />
           <TaskChoice />
@@ -26,7 +28,12 @@ const Menu = () => {
           <Tags />
         </div>
       ) : (
-        <button className={`menu__hide-button${isOpen ? '' : '_hide'}`} onClick={toggleIsOpen} >&#8801;</button>
+        <button
+          className={`menu__hide-button${isOpen ? "" : "_hide"}`}
+          onClick={toggleIsOpen}
+        >
+          &#8801;
+        </button>
       )}
     </>
   );

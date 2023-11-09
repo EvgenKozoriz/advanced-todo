@@ -1,13 +1,16 @@
 import "./index.scss";
 
 interface IStickyItemProps {
-    color: string;
-    onDelete: (id:number) => void;
-    id: number
+  color: string;
+  onDelete: (id: number) => void;
+  id: number;
 }
 
-
-const StickyItem:React.FC<IStickyItemProps> = ({ color = "#ffb6c1", onDelete, id }) => {
+const StickyItem: React.FC<IStickyItemProps> = ({
+  color = "#ffb6c1",
+  onDelete,
+  id,
+}) => {
   return (
     <div className="sticker-wall__sticker" style={{ backgroundColor: color }}>
       <h3 className="sticker-wall__caption">Caption</h3>
