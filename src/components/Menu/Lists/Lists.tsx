@@ -81,6 +81,7 @@ const Lists = () => {
               placeholder="Add title"
               value={titleText}
               onChange={handleTitleTextChange}
+              maxLength={20}
             />
           </div>
           <div className="lists__add-color-block">

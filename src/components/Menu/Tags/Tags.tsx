@@ -69,6 +69,7 @@ const Tags = () => {
               placeholder="Add Tag"
               value={titleText}
               onChange={handleTitleTextChange}
+              maxLength={10}
             />
           </div>
           <div className="tags__add-color-block">

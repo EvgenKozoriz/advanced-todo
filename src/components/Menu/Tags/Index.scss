@@ -1,5 +1,5 @@
 .tags {
-  margin: 10px 0 0 10px;
+  margin: 10px 10px 0 10px;
 
   &__title {
     font-size: 14px;
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     align-items: center;
     overflow: auto;
-    max-height: 210px;
+    max-height: 100px;
 
     & > a {
       text-decoration: none;
